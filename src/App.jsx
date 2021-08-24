@@ -1,17 +1,23 @@
-import { Switch, Route, Redirect, BrowserRouter as Router } from 'react-router-dom';
-import Home from './Pages/Home';
+import {
+  Switch,
+  Route,
+  Redirect,
+  BrowserRouter as Router,
+} from "react-router-dom";
 
-const App = () =>  {
+import Home from "./Pages/Home";
+
+const App = () => {
   return (
     <>
-			 <Router>
+      <Router>
         <Switch>
           <Route path="/" component={Home} />
         </Switch>
-        <Redirect to='/' />
+        <Redirect to="/" />
       </Router>
-		</>
+    </>
   );
-}
+};
 
 export default App;
