@@ -6,7 +6,11 @@ const Home = () => {
     <div>
       <div className="text-center">
         <Fade bottom>
-          <h1 class="text-4xl font-bold text-purple-600">Supriyo's Website</h1>
+          <div>
+            <h1 class="text-4xl font-bold text-purple-600">
+              Supriyo's Website
+            </h1>
+          </div>
         </Fade>
       </div>
     </div>
