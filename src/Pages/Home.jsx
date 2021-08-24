@@ -1,28 +1,22 @@
 import React from "react";
-import Fade from "react-reveal";
+import NavBar from "../Components/Navbar";
+import Fade from "react-reveal/Fade";
+import { Button, Image } from "react-bootstrap";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="bg-blue-300  h-screen">
-      <div className="bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1>asd</h1>
-        </div>
-
-      </div>
-      {/* <div className="text-center">
+    <>
+      <NavBar />
+      <div>
+        <div className="intro">
         <Fade bottom>
-          <div>
-            <h1 class="text-4xl font-bold text-purple-600">
-              Supriyo's Website
-            </h1>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Button
-            </button>
-          </div>
+        <Image id="logo" src="./Supriyo.jpg" width='200px' rounded />
+          <h1>Supriyo's Website</h1>
         </Fade>
-      </div> */}
-    </div>
+        </div>
+      </div>
+    </>
   );
 };
 
