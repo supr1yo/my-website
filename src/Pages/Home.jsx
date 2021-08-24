@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../Components/Navbar";
 import Fade from "react-reveal/Fade";
-import { Button, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import "./Home.css";
 
 const Home = () => {
