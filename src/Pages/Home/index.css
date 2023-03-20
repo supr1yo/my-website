@@ -1,13 +1,11 @@
-body {
-    background-color: #181d27;
+.home {
+    background-color: #000000;
+    color:aliceblue;
     margin: 0;
     display: flex;
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-}
-
-.home {
     font-family: "Ubuntu", sans-serif;
     width: 100vw;
     height: 70vh;
@@ -15,7 +13,9 @@ body {
     justify-content: top;
     align-items: center;
     flex-direction: column;
+    padding: 40px;
 }
+
 
 
 h1 {
