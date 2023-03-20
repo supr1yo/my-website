@@ -1,0 +1,37 @@
+body {
+    background-color: #181d27;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.home {
+    font-family: "Ubuntu", sans-serif;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: white;
+    padding: 2px;
+    font-size: 3rem;
+}
+
+p {
+    font-family: system-ui;
+    color: aliceblue;
+}
+
+.links {
+    color: aliceblue;
+    display: block;
+    padding: 20px;
+    margin: 0;
+}
