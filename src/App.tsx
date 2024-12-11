@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      Supriyo's Website
+     Under construction
     </div>
   )
 }
